@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Candal&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    background: linear-gradient(61deg, rgba(34,43,195,1) 0%, rgba(249,0,93,1) 100%);
+}
+
+
+body{
+    font-family: sans-serif;
+    
+}
+
+.container{
+    background: white;
+    border-radius: 30px;
+    box-shadow: rgb(10, 10, 10);
+    height: 60vh;
+    margin: 100px 15px 100px 15px;
+
+}
+
+h1 {
+    font-family: candal, verdana;
+    margin: 0;
+}
+
+a {
+    color: rgb(70, 70, 70);
+    text-decoration: none;
+}
+
+button {
+    border-radius: 10px;
+    border: 1px solid rgb(0, 255, 13) ;
+    background: rgb(0, 255, 13);
+    color: white;
+    font-weight: bold;
+    padding: 10px 25px;
+}
+
+
+input {
+    background-color: rgb(224, 222, 222);
+    border:none;
+    padding: 10px 10px;
+    border-radius:20px;
+    width: 15%;
+}
